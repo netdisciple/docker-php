@@ -1,4 +1,4 @@
 build:
-	docker build -t docker-perl:latest .
+	docker build -t docker-php:latest .
 test:
-	docker run --rm -it docker-perl:latest
+	docker run --rm -it docker-php:latest
